@@ -16,8 +16,8 @@ public class RibbonController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @RequestMapping
-    public String test(){
+    @RequestMapping("/call")
+    public String call(){
         String result = restTemplate.getForObject("http://yangpan-eureka-client/test", String.class);
         return "通过Ribbon + RestTemplate调用 => " + result;
     }

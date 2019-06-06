@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-feign/pom.xml" />
       </list>
     </option>
   </component>
