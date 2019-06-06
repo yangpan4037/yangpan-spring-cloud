@@ -23,6 +23,9 @@
         <module>yangpan-eureka-server</module>
         <module>yangpan-eureka-client</module>
         <module>yangpan-ribbon</module>
+        <module>yangpan-feign</module>
+        <module>yangpan-hystrix-ribbon</module>
+        <module>yangpan-hystrix-feign</module>
     </modules>
 
     <properties>

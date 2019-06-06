@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yangpan-eureka-server" />
+        <module name="yangpan-hystrix-feign" />
         <module name="yangpan-feign" />
         <module name="yangpan-ribbon" />
         <module name="yangpan-eureka-client" />
+        <module name="yangpan-eureka-server" />
+        <module name="yangpan-hystrix-ribbon" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +20,8 @@
       <module name="yangpan-eureka-client" options="-parameters" />
       <module name="yangpan-eureka-server" options="-parameters" />
       <module name="yangpan-feign" options="-parameters" />
+      <module name="yangpan-hystrix-feign" options="-parameters" />
+      <module name="yangpan-hystrix-ribbon" options="-parameters" />
       <module name="yangpan-ribbon" options="-parameters" />
     </option>
   </component>
