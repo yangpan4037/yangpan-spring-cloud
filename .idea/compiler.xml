@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yangpan-hystrix-feign" />
+        <module name="yangpan-hystrix-ribbon" />
         <module name="yangpan-feign" />
         <module name="yangpan-zuul" />
         <module name="yangpan-ribbon" />
-        <module name="yangpan-eureka-client" />
+        <module name="yangpan-config-server" />
         <module name="yangpan-eureka-server" />
-        <module name="yangpan-hystrix-ribbon" />
+        <module name="yangpan-eureka-client" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yangpan-config-server" options="-parameters" />
       <module name="yangpan-eureka-client" options="-parameters" />
       <module name="yangpan-eureka-server" options="-parameters" />
       <module name="yangpan-feign" options="-parameters" />

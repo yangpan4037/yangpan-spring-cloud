@@ -27,6 +27,7 @@
         <module>yangpan-hystrix-ribbon</module>
         <module>yangpan-hystrix-feign</module>
         <module>yangpan-zuul</module>
+        <module>yangpan-config-server</module>
     </modules>
 
     <properties>

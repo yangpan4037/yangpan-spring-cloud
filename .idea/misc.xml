@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/yangpan-hystrix-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-feign/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/pom.xml" />
       </list>
     </option>
   </component>

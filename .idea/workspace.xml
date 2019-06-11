@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="">
+    <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="Zuul 路由器和过滤器">
+      <change afterPath="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -17,6 +18,7 @@
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-feign/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,46 +31,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="364">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="90" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yangpan-zuul/pom.xml">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.prod.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="18" lean-forward="true" selection-end-line="33" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/filter/MyZuulFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="9" column="45" lean-forward="true" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/ZuulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="182">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -116,11 +127,18 @@
         <option value="$PROJECT_DIR$/yangpan-hystrix-feign/src/main/java/site/yangpan/hystrix/feign/ScheduleFeignClient.java" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-feign/src/main/java/site/yangpan/hystrix/feign/ScheduleFeignClientHystrix.java" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/yangpan-zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/filter/MyZuulFilter.java" />
+        <option value="$PROJECT_DIR$/yangpan-zuul/src/test/java/site/yangpan/zuul/Oracle2MySQl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.test.properties" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.dev.properties" />
+        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.prod.properties" />
       </list>
     </option>
   </component>
@@ -142,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,43 +172,42 @@
             <path>
               <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="yangpan-config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="yangpan-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="yangpan-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="yangpan-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="yangpan-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +218,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -210,6 +229,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="site.yangpan.hystrix.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-config-server\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +246,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yangpan-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.config.server.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="yangpan-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.EurekaClientApplication" />
@@ -289,6 +319,7 @@
       <item itemvalue="Spring Boot.HystrixRibbonApplication" />
       <item itemvalue="Spring Boot.HystrixFeignApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -307,7 +338,8 @@
       <workItem from="1559635877357" duration="5319000" />
       <workItem from="1559699650599" duration="8020000" />
       <workItem from="1559785280916" duration="12037000" />
-      <workItem from="1560130316124" duration="6381000" />
+      <workItem from="1560130316124" duration="13781000" />
+      <workItem from="1560217094362" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="ribbon 负载均衡+服务间调用">
       <created>1559724626634</created>
@@ -330,17 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559813140457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zuul 路由器和过滤器">
+      <created>1560141281166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560141281166</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32820000" />
+    <option name="totallyTimeSpent" value="45625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -350,8 +389,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39836067" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53934425" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45901638" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5032787" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,7 +414,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -385,8 +424,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39836067" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53934425" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45901638" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5032787" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,14 +456,15 @@
     <MESSAGE value="ribbon 负载均衡+服务间调用" />
     <MESSAGE value="Feign 声明式REST客户端" />
     <MESSAGE value="Hystrix 断路器/熔断器" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hystrix 断路器/熔断器" />
+    <MESSAGE value="Zuul 路由器和过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuul 路由器和过滤器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/filter/MyZuulFilter.java</url>
-          <line>63</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -663,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -698,17 +731,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/filter/MyZuulFilter.java">
+    <entry file="file://$PROJECT_DIR$/yangpan-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="9" column="45" lean-forward="true" selection-end-line="82" />
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/test/java/site/yangpan/zuul/Oracle2MySQl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="18" lean-forward="true" selection-end-line="33" />
+        <state relative-caret-position="420">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/test/java/site/yangpan/zuul/ZuulApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-zuul/src/main/java/site/yangpan/zuul/filter/MyZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="90" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan.prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
