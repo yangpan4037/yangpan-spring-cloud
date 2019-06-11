@@ -28,6 +28,7 @@
         <module>yangpan-hystrix-feign</module>
         <module>yangpan-zuul</module>
         <module>yangpan-config-server</module>
+        <module>yangpan-config-client</module>
     </modules>
 
     <properties>

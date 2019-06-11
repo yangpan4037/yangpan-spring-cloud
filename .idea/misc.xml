@@ -5,14 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-hystrix-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-hystrix-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-config-client/pom.xml" />
       </list>
     </option>
   </component>
