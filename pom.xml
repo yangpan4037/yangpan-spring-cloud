@@ -29,6 +29,7 @@
         <module>yangpan-zuul</module>
         <module>yangpan-config-server</module>
         <module>yangpan-config-client</module>
+        <module>yangpan-spring-cloud-bus</module>
     </modules>
 
     <properties>
