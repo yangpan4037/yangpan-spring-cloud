@@ -27,8 +27,8 @@
         <module>yangpan-hystrix-ribbon</module>
         <module>yangpan-hystrix-feign</module>
         <module>yangpan-zuul</module>
-        <module>yangpan-config-server</module>
-        <module>yangpan-config-client</module>
+        <module>yangpan-spring-cloud-config-server</module>
+        <module>yangpan-spring-cloud-config-client</module>
         <module>yangpan-spring-cloud-bus</module>
     </modules>
 

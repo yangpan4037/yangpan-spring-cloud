@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>site.yangpan.config.server</groupId>
-    <artifactId>yangpan-config-server</artifactId>
+    <groupId>site.yangpan.config.client</groupId>
+    <artifactId>yangpan-spring-cloud-config-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>yangpan-config-server</name>
+    <name>yangpan-spring-cloud-config-client</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -23,19 +23,11 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-bus</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
     </dependencies>
 
