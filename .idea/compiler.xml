@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yangpan-hystrix-ribbon" />
         <module name="yangpan-feign" />
         <module name="yangpan-zuul" />
         <module name="yangpan-ribbon" />
-        <module name="yangpan-hystrix-feign" />
+        <module name="yangpan-eureka-client" />
         <module name="yangpan-spring-cloud-bus" />
         <module name="yangpan-spring-cloud-config-server" />
         <module name="yangpan-eureka-server" />
+        <module name="yangpan-hystrix-feign" />
         <module name="yangpan-spring-cloud-config-client" />
-        <module name="yangpan-eureka-client" />
+        <module name="yangpan-hystrix-ribbon" />
       </profile>
     </annotationProcessing>
   </component>

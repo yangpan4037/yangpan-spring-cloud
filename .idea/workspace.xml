@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/test/java/site/yangpan/bus/SpringCloudBusApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/test/java/site/yangpan/config/client/ConfigClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/test/java/site/yangpan/config/server/ConfigServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="Spring Cloud Bus 消息总线">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-client/src/test/java/site/yangpan/config/client/ConfigClientApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-client-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-client-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-server-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-server-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-respo/yangpan-spring-cloud-bus-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-bus-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yangpan-config-server/src/test/java/site/yangpan/config/server/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangpan-eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-feign/target/" />
@@ -88,38 +30,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="252">
+              <caret line="18" column="1" lean-forward="true" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,29 +47,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="70">
+              <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml">
+        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="98">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,15 +113,15 @@
         <option value="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-test.properties" />
         <option value="$PROJECT_DIR$/yangpan-config-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/yangpan-eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java" />
         <option value="$PROJECT_DIR$/yangpan-eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java" />
+        <option value="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java" />
       </list>
     </option>
   </component>
@@ -232,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +166,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +318,8 @@
       <updated>1560260476314</updated>
       <workItem from="1560260477944" duration="6894000" />
       <workItem from="1560390445664" duration="1490000" />
-      <workItem from="1560416552379" duration="3766000" />
+      <workItem from="1560416552379" duration="4007000" />
+      <workItem from="1560476136978" duration="4751000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config 仓库">
       <created>1560265270182</created>
@@ -419,22 +342,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560334253482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring Cloud Bus 消息总线">
+      <created>1560420670795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560420670795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20532000" />
+    <option name="totallyTimeSpent" value="25524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35627836" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.36157337" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
@@ -447,7 +376,7 @@
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.60819674" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.5163934" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -568,18 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -621,6 +538,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -628,25 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+        <state relative-caret-position="364">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -657,33 +567,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="1" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
           </folding>
         </state>
       </provider>
