@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/pom.xml" />
       </list>
     </option>
   </component>
