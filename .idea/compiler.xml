@@ -14,8 +14,10 @@
         <module name="yangpan-hystrix-feign" />
         <module name="yangpan-eureka-cluster-client" />
         <module name="yangpan-spring-cloud-config-client" />
+        <module name="yangpan-hystrix-dashboard-feign" />
         <module name="yangpan-eureka-server" />
         <module name="yangpan-ribbon" />
+        <module name="yangpan-hystrix-dashboard-ribbon" />
         <module name="yangpan-spring-cloud-bus" />
         <module name="yangpan-spring-cloud-sleuth-zipkin-server" />
         <module name="yangpan-eureka-cluster-server" />
@@ -30,6 +32,8 @@
       <module name="yangpan-eureka-cluster-server" options="-parameters" />
       <module name="yangpan-eureka-server" options="-parameters" />
       <module name="yangpan-feign" options="-parameters" />
+      <module name="yangpan-hystrix-dashboard-feign" options="-parameters" />
+      <module name="yangpan-hystrix-dashboard-ribbon" options="-parameters" />
       <module name="yangpan-hystrix-feign" options="-parameters" />
       <module name="yangpan-hystrix-ribbon" options="-parameters" />
       <module name="yangpan-ribbon" options="-parameters" />
