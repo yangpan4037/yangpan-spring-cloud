@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/controller/HystrixFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClientHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangpan-eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-feign/target/" />
@@ -26,7 +30,13 @@
     <ignored path="$PROJECT_DIR$/yangpan-eureka-cluster-client/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-hystrix-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-hystrix-turbine-server/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,51 +47,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/resources/application.properties">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="31" selection-end-line="3" selection-end-column="66" />
+            <state relative-caret-position="374">
+              <caret line="22" column="21" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/HystrixDashboardFeignApplication.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" lean-forward="true" selection-end-line="34" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" selection-end-line="3" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClient.java">
+      <file leaf-file-name="HystrixTurbineClientFeignApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/HystrixTurbineClientFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" lean-forward="true" selection-end-line="20" />
+            <state relative-caret-position="391">
+              <caret line="33" column="1" lean-forward="true" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClientHystrix.java">
+      <file leaf-file-name="ScheduleFeignClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="153">
+              <caret line="10" column="36" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleFeignClientHystrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClientHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
               <caret line="9" column="39" selection-end-line="15" />
-              <folding>
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/controller/HystrixFeignController.java">
+      <file leaf-file-name="HystrixFeignController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/controller/HystrixFeignController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" column="1" lean-forward="true" selection-end-line="25" />
+            <state relative-caret-position="357">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixTurbineServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="44" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -100,11 +151,16 @@
       <find>yangpan-config-server</find>
       <find>yangpan-config-client</find>
       <find>yangpan-spring-cloud-sleuth-zipkin-server</find>
+      <find>yangpan-hystrix-turbine-client-one</find>
     </findStrings>
     <replaceStrings>
       <replace>yangpan-spring-cloud-config-server</replace>
       <replace>yangpan-spring-cloud-config-client</replace>
+      <replace>yangpan-hystrix-turbine-client-ribbon</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-client-one</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,26 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yangpan-config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-test.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-prod.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-dev.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java" />
-        <option value="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-server-dev.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-dev.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-test.properties" />
-        <option value="$PROJECT_DIR$/yangpan-config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java" />
-        <option value="$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinController.java" />
@@ -163,25 +199,37 @@
         <option value="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClient.java" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClientHystrix.java" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/controller/HystrixFeignController.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine/src/main/java/site/yangpan/hystrix/tuibine/HystrixTurbineApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/java/site/yangpan/hystrix/turbine/controller/HystrixRibbonController.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineClientOneApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/YangpanHystrixTurbineClientFeignApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/HystrixTurbineClientFeignApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/feign/ScheduleFeignClientHystrix.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClient.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClientHystrix.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/controller/HystrixFeignController.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineServerApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <option name="groupStructurally" value="true" />
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yangpan-springcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yangpan-springcloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
@@ -195,8 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +256,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,14 +270,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="site.yangpan.hystrix.turbine.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-hystrix-dashboard-feign\src\main\java\site\yangpan\hystrix\dashboard" />
-      <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-eureka-cluster-server\src\main\resources" />
-      <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-spring-cloud-sleuth-zipkin" />
-      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-config-respo" />
+      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-client-ribbon\src\main\java\site\yangpan\hystrix\turbine" />
+      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-client-ribbon\src\main\resources" />
+      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-client-ribbon" />
+      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-server\src\main\java\site\yangpan\hystrix\turbine" />
+      <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-hystrix-turbine-server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,175 +296,169 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashboardFeignApplication">
+  <component name="RunManager" selected="Spring Boot.HystrixTurbineServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zipkin-server-2.12.9-exec.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin/zipkin-server-2.12.9-exec.jar" />
-      <method v="2" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-spring-cloud-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.config.client.ConfigClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-spring-cloud-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.config.server.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.EurekaClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="EurekaClusterClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="EurekaClusterClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-eureka-cluster-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.cluster.EurekaClusterClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="EurekaClusterServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="EurekaClusterServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-eureka-cluster-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.cluster.EurekaClusterServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.feign.FeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="HystrixDashboardFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-hystrix-dashboard-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.dashboard.HystrixDashboardFeignApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="HystrixDashboardRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-hystrix-dashboard-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.dashboard.HystrixDashboardRibbonApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="HystrixFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-hystrix-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.HystrixFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="HystrixRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-hystrix-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.HystrixRibbonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    </configuration>
+    <configuration name="HystrixTurbineClientFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yangpan-hystrix-turbine-client-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.yangpan.hystrix.turbin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.turbin.HystrixTurbineClientFeignApplication" />
+    </configuration>
+    <configuration name="HystrixTurbineClientRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yangpan-hystrix-turbine-client-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.yangpan.hystrix.turbine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.turbine.HystrixTurbineClientRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="HystrixTurbineServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yangpan-hystrix-turbine-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.yangpan.hystrix.turbine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.hystrix.turbine.HystrixTurbineServerApplication" />
     </configuration>
     <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.ribbon.RibbonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="SleuthZipkinClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-spring-cloud-sleuth-zipkin-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.sleuth.zipkin.SleuthZipkinClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="SleuthZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-spring-cloud-sleuth-zipkin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.sleuth.zipkin.SleuthZipkinServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="SpringCloudBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="SpringCloudBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-spring-cloud-bus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.bus.SpringCloudBusApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.zuul.ZuulApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
-      <item itemvalue="JAR Application.zipkin-server-2.12.9-exec.jar" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
       <item itemvalue="Spring Boot.HystrixFeignApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.RibbonApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.HystrixRibbonApplication" />
-      <item itemvalue="Spring Boot.ConfigClientApplication" />
-      <item itemvalue="Spring Boot.SpringCloudBusApplication" />
-      <item itemvalue="Spring Boot.SleuthZipkinServerApplication" />
       <item itemvalue="Spring Boot.SleuthZipkinClientApplication" />
       <item itemvalue="Spring Boot.EurekaClusterClientApplication" />
-      <item itemvalue="Spring Boot.EurekaClusterServerApplication" />
       <item itemvalue="Spring Boot.HystrixDashboardRibbonApplication" />
+      <item itemvalue="Spring Boot.SleuthZipkinServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudBusApplication" />
+      <item itemvalue="Spring Boot.EurekaClusterServerApplication" />
       <item itemvalue="Spring Boot.HystrixDashboardFeignApplication" />
+      <item itemvalue="Spring Boot.HystrixTurbineClientRibbonApplication" />
+      <item itemvalue="Spring Boot.HystrixTurbineClientFeignApplication" />
+      <item itemvalue="Spring Boot.HystrixTurbineServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.zipkin-server-2.12.9-exec.jar" />
+        <item itemvalue="Spring Boot.HystrixTurbineServerApplication" />
+        <item itemvalue="Spring Boot.HystrixTurbineClientFeignApplication" />
+        <item itemvalue="Spring Boot.HystrixTurbineClientRibbonApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -420,16 +467,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="" />
       <created>1560260476314</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560260476314</updated>
-      <workItem from="1560260477944" duration="6894000" />
-      <workItem from="1560390445664" duration="1490000" />
-      <workItem from="1560416552379" duration="4007000" />
-      <workItem from="1560476136978" duration="13550000" />
-      <workItem from="1560736467082" duration="18865000" />
+      <workItem from="1560260477944" duration="7301000" />
+      <workItem from="1560347983397" duration="270000" />
+      <workItem from="1560689539486" duration="5830000" />
+      <workItem from="1560774907394" duration="4888000" />
+      <workItem from="1560781904436" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config 仓库">
       <created>1560265270182</created>
@@ -445,527 +491,311 @@
       <option name="project" value="LOCAL" />
       <updated>1560266848047</updated>
     </task>
-    <task id="LOCAL-00003" summary="Spring Cloud Bus 消息总线">
-      <created>1560334253482</created>
+    <task id="LOCAL-00003" summary="Spring Cloud Config 分布式统一配置管理">
+      <created>1560267752175</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1560334253482</updated>
+      <updated>1560267752175</updated>
     </task>
-    <task id="LOCAL-00004" summary="Spring Cloud Bus 消息总线">
-      <created>1560420670795</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1560420670795</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Spring Cloud Bus 消息总线">
-      <created>1560481586425</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1560481586425</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Spring Cloud Sleuth(zipkin)链路追踪">
-      <created>1560506263821</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1560506263821</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Eureka Server集群">
-      <created>1560754972796</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1560754972796</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53188000" />
+    <option name="totallyTimeSpent" value="59836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5223555" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3295082" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.43114755" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5229508" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" order="7" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3293348" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26399395" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
       <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info id="Capture Tool" order="7" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.43114755" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5229508" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26399395" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5229508" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring cloud config 仓库" />
     <MESSAGE value="Spring Cloud Config 分布式统一配置管理" />
-    <MESSAGE value="Spring Cloud Bus 消息总线" />
-    <MESSAGE value="Spring Cloud Sleuth(zipkin)链路追踪" />
-    <MESSAGE value="Eureka Server集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eureka Server集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Config 分布式统一配置管理" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-client-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-server-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" lean-forward="true" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-client/src/main/java/site/yangpan/eureka/controller/EurekaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-config-client-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="14" lean-forward="true" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-respo/yangpan-spring-cloud-bus-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/controller/SpringCloudBusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-bus/src/main/java/site/yangpan/bus/SpringCloudBusApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="1" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-dev.properties" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-test.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-server-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="374">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" lean-forward="true" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/culster/EurekaClusterServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" lean-forward="true" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="37" selection-end-line="3" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer3.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="27" selection-end-line="3" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/cluster/EurekaClusterServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="1" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="21" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="29" selection-end-line="3" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/java/site/yangpan/eureka/cluster/EurekaClusterClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-end-line="26" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-eureka-client/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/java/site/yangpan/config/server/ConfigServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-test.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-prod.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/config/yangpan-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/controller/ConfigController.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-server/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-test.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-client-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-respo/yangpan-config-server-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-config-client/src/main/java/site/yangpan/config/client/ConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine/pom.xml" />
     <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/src/main/java/site/yangpan/hystrix/dashboard/controller/HystrixRibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/src/main/java/site/yangpan/hystrix/dashboard/HystrixDashboardRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="65" />
-          <folding>
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="42" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine/src/main/java/site/yangpan/hystrix/tuibine/HystrixTurbineApplication.java" />
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/java/site/yangpan/hystrix/turbine/controller/HystrixRibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="51" lean-forward="true" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/pom.xml">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineClientRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="55" lean-forward="true" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="31" selection-end-line="3" selection-end-column="66" />
+        <state relative-caret-position="153">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/HystrixDashboardFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" lean-forward="true" selection-end-line="34" />
+        <state relative-caret-position="323">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClient.java">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/feign/ScheduleFeignClientHystrix.java">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/src/main/java/site/yangpan/hystrix/turbine/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="561">
+          <caret line="33" column="73" lean-forward="true" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineClientRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="50" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/src/main/java/site/yangpan/hystrix/turbine/controller/HystrixRibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/HystrixTurbineClientFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="1" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="36" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/feign/ScheduleFeignClientHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
           <caret line="9" column="39" selection-end-line="15" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/src/main/java/site/yangpan/hystrix/dashboard/controller/HystrixFeignController.java">
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/src/main/java/site/yangpan/hystrix/turbin/controller/HystrixFeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" column="1" lean-forward="true" selection-end-line="25" />
+        <state relative-caret-position="357">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server/src/main/java/site/yangpan/hystrix/turbine/HystrixTurbineServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="44" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
         </state>
       </provider>
     </entry>

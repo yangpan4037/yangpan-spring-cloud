@@ -5,13 +5,16 @@
     <file url="file://$PROJECT_DIR$/yangpan-eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-eureka-cluster-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-eureka-cluster-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yangpan-eureka-cluster-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-hystrix-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-hystrix-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yangpan-hystrix-turbine-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-spring-cloud-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yangpan-spring-cloud-config-client" charset="UTF-8" />

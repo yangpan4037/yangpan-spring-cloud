@@ -13,6 +13,11 @@
         <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-dashboard-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-dashboard-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-one/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/pom.xml" />
       </list>
     </option>
   </component>

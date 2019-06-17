@@ -30,6 +30,15 @@
         <module>yangpan-spring-cloud-config-server</module>
         <module>yangpan-spring-cloud-config-client</module>
         <module>yangpan-spring-cloud-bus</module>
+        <module>yangpan-spring-cloud-sleuth-zipkin-server</module>
+        <module>yangpan-spring-cloud-sleuth-zipkin-client</module>
+        <module>yangpan-eureka-cluster-server</module>
+        <module>yangpan-eureka-cluster-client</module>
+        <module>yangpan-hystrix-dashboard-ribbon</module>
+        <module>yangpan-hystrix-dashboard-feign</module>
+        <module>yangpan-hystrix-turbine-client-ribbon</module>
+        <module>yangpan-hystrix-turbine-client-feign</module>
+        <module>yangpan-hystrix-turbine-server</module>
     </modules>
 
     <properties>
