@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer1.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -22,6 +23,8 @@
     <ignored path="$PROJECT_DIR$/yangpan-spring-cloud-config-server/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/target/" />
     <ignored path="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-eureka-cluster-server/target/" />
+    <ignored path="$PROJECT_DIR$/yangpan-eureka-cluster-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,61 +37,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="20" lean-forward="true" selection-end-line="20" />
+            <state relative-caret-position="28">
+              <caret line="2" column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinServerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" lean-forward="true" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" lean-forward="true" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer1.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="3" lean-forward="true" selection-end-line="3" />
+              <caret line="3" column="43" lean-forward="true" selection-end-line="3" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="20" lean-forward="true" selection-end-line="20" />
+            <state relative-caret-position="42">
+              <caret line="3" column="37" selection-end-line="3" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer3.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="27" lean-forward="true" selection-end-line="3" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/cluster/EurekaClusterServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="14" column="1" lean-forward="true" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="26" column="21" lean-forward="true" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="29" selection-end-line="3" selection-end-column="115" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinClientController.java">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/java/site/yangpan/eureka/cluster/EurekaClusterClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" lean-forward="true" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="11" lean-forward="true" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -149,6 +173,16 @@
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinClientController.java" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinServerController.java" />
         <option value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/culster/EurekaClusterServerApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/java/site/yangpan/eureka/cluster/EurekaClusterClientApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/cluster/EurekaClusterServerApplication.java" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer1.properties" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer2.properties" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer3.properties" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -181,6 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,8 +228,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,13 +238,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-eureka-cluster-server\src\main\resources" />
       <recent name="E:\yangpan\yangpan-study\yangpan-springcloud\yangpan-spring-cloud-sleuth-zipkin" />
       <recent name="E:\yangpan\yangpan-github\yangpan-springcloud\yangpan-config-respo" />
     </key>
@@ -227,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SleuthZipkinClientApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClusterClientApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -263,6 +298,22 @@
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yangpan-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClusterClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="yangpan-eureka-cluster-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.cluster.EurekaClusterClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClusterServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="yangpan-eureka-cluster-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="site.yangpan.eureka.cluster.EurekaClusterServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,6 +407,8 @@
       <item itemvalue="Spring Boot.SpringCloudBusApplication" />
       <item itemvalue="Spring Boot.SleuthZipkinServerApplication" />
       <item itemvalue="Spring Boot.SleuthZipkinClientApplication" />
+      <item itemvalue="Spring Boot.EurekaClusterClientApplication" />
+      <item itemvalue="Spring Boot.EurekaClusterServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -376,7 +429,8 @@
       <workItem from="1560260477944" duration="6894000" />
       <workItem from="1560390445664" duration="1490000" />
       <workItem from="1560416552379" duration="4007000" />
-      <workItem from="1560476136978" duration="12963000" />
+      <workItem from="1560476136978" duration="13550000" />
+      <workItem from="1560736467082" duration="11756000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config 仓库">
       <created>1560265270182</created>
@@ -413,16 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560481586425</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring Cloud Sleuth(zipkin)链路追踪">
+      <created>1560506263821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560506263821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33736000" />
+    <option name="totallyTimeSpent" value="46079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,9 +492,9 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6409836" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6262295" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.43114755" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5229508" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -455,41 +516,43 @@
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3857791" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26399395" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Messages" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.59651035" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.43114755" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53770494" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5229508" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +562,8 @@
     <MESSAGE value="spring cloud config 仓库" />
     <MESSAGE value="Spring Cloud Config 分布式统一配置管理" />
     <MESSAGE value="Spring Cloud Bus 消息总线" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Bus 消息总线" />
+    <MESSAGE value="Spring Cloud Sleuth(zipkin)链路追踪" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Sleuth(zipkin)链路追踪" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -544,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangpan-eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -703,14 +760,14 @@
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
+          <caret line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-server/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" lean-forward="true" selection-end-line="29" />
+        <state relative-caret-position="336">
+          <caret line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,31 +777,115 @@
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="30" lean-forward="true" selection-end-line="30" />
+          <caret line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="3" lean-forward="true" selection-end-line="3" />
+          <caret line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/SleuthZipkinClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
+          <caret line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-sleuth-zipkin-client/src/main/java/site/yangpan/sleuth/zipkin/controller/SleuthZipkinClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" lean-forward="true" selection-end-line="29" />
+        <state relative-caret-position="210">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/culster/EurekaClusterServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" lean-forward="true" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="11" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="43" lean-forward="true" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="37" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/resources/application-peer3.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="27" lean-forward="true" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-server/src/main/java/site/yangpan/eureka/cluster/EurekaClusterServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="1" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="26" column="21" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="29" selection-end-line="3" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangpan-eureka-cluster-client/src/main/java/site/yangpan/eureka/cluster/EurekaClusterClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
         </state>
       </provider>
     </entry>
