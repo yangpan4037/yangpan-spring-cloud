@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-feign/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-server/pom.xml" />
         <option value="$PROJECT_DIR$/yangpan-hystrix-turbine-client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/yangpan-spring-cloud-gateway-helloworld/pom.xml" />
       </list>
     </option>
   </component>
