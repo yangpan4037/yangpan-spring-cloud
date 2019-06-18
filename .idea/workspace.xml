@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e1184f-f9b2-4bc7-9cc1-0688ba2ed97f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yangpan-eureka-client/target/" />
@@ -55,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-gateway-helloworld/src/main/java/site/yangpan/gateway/GatewayHelloworldApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="518">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="e#1380#1381#0" expanded="true" />
                 <element signature="e#1442#1443#0" expanded="true" />
@@ -179,52 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-spring-cloud-gateway-helloworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-spring-cloud-gateway-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-spring-cloud-gateway-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-spring-cloud-gateway-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yangpan-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yangpan-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="yangpan-spring-cloud-gateway-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
@@ -494,17 +446,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560267752175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Gateway 网关初识">
+      <created>1560847925660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560847925660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71685000" />
+    <option name="totallyTimeSpent" value="73221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3245083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3245083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -582,7 +540,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring cloud config 仓库" />
     <MESSAGE value="Spring Cloud Config 分布式统一配置管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Config 分布式统一配置管理" />
+    <MESSAGE value="Gateway 网关初识" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gateway 网关初识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yangpan-spring-cloud-gateway-helloworld/src/main/java/site/yangpan/gateway/GatewayHelloworldApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="518">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="e#1380#1381#0" expanded="true" />
             <element signature="e#1442#1443#0" expanded="true" />
