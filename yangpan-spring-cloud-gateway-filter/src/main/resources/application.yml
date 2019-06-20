@@ -1,0 +1,47 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: add_request_header_route
+
+# 为所有匹配请求设置请求头X-Request-Foo：Bar。
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: add_request_header_route
+          uri: http://httpbin.org:80/headers
+          filters:
+            - AddRequestHeader=X-Request-Foo, Bar
+          predicates:
+            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+  profiles: add_request_header_route
+
+
+# 为所有请求设置请求参数X-Request-Foo：Bar。
+---
+spring:
+  profiles: customer_filter_router
+  cloud:
+    gateway:
+      routes:
+        - id: add_request_parameter_route
+          uri: http://httpbin.org:80/headers
+          filters:
+            - AddRequestParameter=foo, bar
+
+# 对于/foo/bar的请求路径，将路径设置为/bar。 注意由于YAML规范，$\替换为$。
+---
+spring:
+  profiles: rewritepath_route
+  cloud:
+    gateway:
+      routes:
+        - id: rewritepath_route
+          uri: http://example.org
+          predicates:
+            - Path=/foo/**
+          filters:
+            - RewritePath=/foo/(?<segment>.*), /$\{segment}
+

@@ -41,6 +41,7 @@
         <module>yangpan-hystrix-turbine-server</module>
         <module>yangpan-spring-cloud-gateway-helloworld</module>
         <module>yangpan-spring-cloud-gateway-predicate</module>
+        <module>yangpan-spring-cloud-gateway-filter</module>
     </modules>
 
     <properties>
