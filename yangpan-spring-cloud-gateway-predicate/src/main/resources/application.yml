@@ -4,106 +4,106 @@ spring:
   profiles:
     active: after_route
 
-# µ±ÇëÇóµÄÊ±¼äÔÚÕâ¸öÅäÖÃµÄÊ±¼äÖ®ºó£¬ÇëÇó»á±»Â·ÓÉµ½http://httpbin.org:80/get
+# å½“è¯·æ±‚çš„æ—¶é—´åœ¨è¿™ä¸ªé…ç½®çš„æ—¶é—´ä¹‹åï¼Œè¯·æ±‚ä¼šè¢«è·¯ç”±åˆ°http://httpbin.org:80/get
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: after_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - After=2019-01-20T17:42:47.789-07:00[America/Denver]
+        - id: after_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - After=2019-01-20T17:42:47.789-07:00[America/Denver]
   profiles: after_route
 
-# µ±ÇëÇóµÄHeaderÖĞÓĞX-Request-IdµÄheaderÃû£¬ÇÒheaderÖµÎªÊı×ÖÊ±£¬ÇëÇó»á±»Â·ÓÉµ½ÅäÖÃµÄ uri.
+# å½“è¯·æ±‚çš„Headerä¸­æœ‰X-Request-Idçš„headeråï¼Œä¸”headerå€¼ä¸ºæ•°å­—æ—¶ï¼Œè¯·æ±‚ä¼šè¢«è·¯ç”±åˆ°é…ç½®çš„ uri.
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: header_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Header=X-Request-Id, \d+
+        - id: header_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Header=X-Request-Id, \d+
   profiles: header_route
 
 
-# ÇëÇó´øÓĞcookieÃûÎªname, cookieÖµÎªforezp µÄÇëÇó½«¶¼»á×ª·¢µ½uriÎª http://httpbin.org:80/get
+# è¯·æ±‚å¸¦æœ‰cookieåä¸ºname, cookieå€¼ä¸ºforezp çš„è¯·æ±‚å°†éƒ½ä¼šè½¬å‘åˆ°uriä¸º http://httpbin.org:80/get
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: cookie_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Cookie=name, forezp
+        - id: cookie_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Cookie=name, forezp
   profiles: cookie_route
 
 
-# ÇëÇóÍ·ÖĞº¬ÓĞHostÎªyangpan.siteµÄÇëÇó½«»á±»Â·ÓÉ×ª·¢×ª·¢µ½ÅäÖÃµÄuri
+  # è¯·æ±‚å¤´ä¸­å«æœ‰Hostä¸ºyangpan.siteçš„è¯·æ±‚å°†ä¼šè¢«è·¯ç”±è½¬å‘è½¬å‘åˆ°é…ç½®çš„uri
   ---
   spring:
     cloud:
       gateway:
         routes:
-        - id: host_route
-          uri: http://httpbin.org:80/get
-          predicates:
-          - Host=**.yangpan.site
+          - id: host_route
+            uri: http://httpbin.org:80/get
+            predicates:
+              - Host=**.yangpan.site
     profiles: host_route
 
 
 
-# ËùÓĞµÄGETÀàĞÍµÄÇëÇó¶¼»áÂ·ÓÉ×ª·¢µ½ÅäÖÃµÄuri
+# æ‰€æœ‰çš„GETç±»å‹çš„è¯·æ±‚éƒ½ä¼šè·¯ç”±è½¬å‘åˆ°é…ç½®çš„uri
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: method_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Method=GET
+        - id: method_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Method=GET
   profiles: method_route
 
 
-# ËùÓĞµÄÇëÇóÂ·¾¶Âú×ã/foo/{segment}µÄÇëÇó½«»áÆ¥Åä²¢±»Â·ÓÉ£¬±ÈÈç/foo/1 ¡¢/foo/barµÄÇëÇó£¬½«»áÃüÖĞÆ¥Åä£¬²¢³É¹¦×ª·¢
+# æ‰€æœ‰çš„è¯·æ±‚è·¯å¾„æ»¡è¶³/foo/{segment}çš„è¯·æ±‚å°†ä¼šåŒ¹é…å¹¶è¢«è·¯ç”±ï¼Œæ¯”å¦‚/foo/1 ã€/foo/barçš„è¯·æ±‚ï¼Œå°†ä¼šå‘½ä¸­åŒ¹é…ï¼Œå¹¶æˆåŠŸè½¬å‘
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: path_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Path=/foo/{segment}
+        - id: path_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Path=/foo/{segment}
   profiles: path_route
 
 
-# ÅäÖÃÁËÇëÇóÖĞº¬ÓĞ²ÎÊıfoo£¬²¢ÇÒfooµÄÖµÆ¥Åäba.£¬ÔòÇëÇóÃüÖĞÂ·ÓÉ
+# é…ç½®äº†è¯·æ±‚ä¸­å«æœ‰å‚æ•°fooï¼Œå¹¶ä¸”fooçš„å€¼åŒ¹é…ba.ï¼Œåˆ™è¯·æ±‚å‘½ä¸­è·¯ç”±
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: query_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Query=foo, ba.
+        - id: query_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Query=foo, ba.
   profiles: query_route1
 
 
-# ÇëÇóµÄ²ÎÊıÖĞº¬ÓĞÅäÖÃµÄ²ÎÊıÃû£¬ÔòÃüÖĞÂ·ÓÉ
+# è¯·æ±‚çš„å‚æ•°ä¸­å«æœ‰é…ç½®çš„å‚æ•°åï¼Œåˆ™å‘½ä¸­è·¯ç”±
 ---
 spring:
   cloud:
     gateway:
       routes:
-      - id: query_route
-        uri: http://httpbin.org:80/get
-        predicates:
-        - Query=foo
+        - id: query_route
+          uri: http://httpbin.org:80/get
+          predicates:
+            - Query=foo
   profiles: query_route2
 

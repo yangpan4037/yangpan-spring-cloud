@@ -4,7 +4,7 @@ spring:
   profiles:
     active: add_request_header_route
 
-# ÎªËùÓĞÆ¥ÅäÇëÇóÉèÖÃÇëÇóÍ·X-Request-Foo£ºBar¡£
+# ä¸ºæ‰€æœ‰åŒ¹é…è¯·æ±‚è®¾ç½®è¯·æ±‚å¤´X-Request-Fooï¼šBarã€‚
 ---
 spring:
   cloud:
@@ -19,7 +19,7 @@ spring:
   profiles: add_request_header_route
 
 
-# ÎªËùÓĞÇëÇóÉèÖÃÇëÇó²ÎÊıX-Request-Foo£ºBar¡£
+# ä¸ºæ‰€æœ‰è¯·æ±‚è®¾ç½®è¯·æ±‚å‚æ•°X-Request-Fooï¼šBarã€‚
 ---
 spring:
   profiles: customer_filter_router
@@ -31,7 +31,7 @@ spring:
           filters:
             - AddRequestParameter=foo, bar
 
-# ¶ÔÓÚ/foo/barµÄÇëÇóÂ·¾¶£¬½«Â·¾¶ÉèÖÃÎª/bar¡£ ×¢ÒâÓÉÓÚYAML¹æ·¶£¬$\Ìæ»»Îª$¡£
+# å¯¹äº/foo/barçš„è¯·æ±‚è·¯å¾„ï¼Œå°†è·¯å¾„è®¾ç½®ä¸º/barã€‚ æ³¨æ„ç”±äºYAMLè§„èŒƒï¼Œ$\æ›¿æ¢ä¸º$ã€‚
 ---
 spring:
   profiles: rewritepath_route
