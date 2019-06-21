@@ -42,6 +42,7 @@
         <module>yangpan-spring-cloud-gateway-helloworld</module>
         <module>yangpan-spring-cloud-gateway-predicate</module>
         <module>yangpan-spring-cloud-gateway-filter</module>
+        <module>yangpan-spring-cloud-gateway-filter-rate-limiter</module>
     </modules>
 
     <properties>
