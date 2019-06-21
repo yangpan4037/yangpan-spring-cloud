@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: yangpan-spring-cloud-gateway-route
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+      - id: yangpan-eureka-client
+        uri: lb://YANGPAN-EUREKA-CLIENT
+        predicates:
+          - Path=/myRouter/**
+        filters:
+          - StripPrefix=1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
