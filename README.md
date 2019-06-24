@@ -1,6 +1,13 @@
 # 项目介绍
 此项目是yangpan在学习Spring Cloud 过程中写的一些demo项目，其中绝大部分技术参考了[方志朋](https://blog.csdn.net/forezp)的[《史上最简单的 SpringCloud 教程》](https://blog.csdn.net/forezp/article/details/70148833)
 
+# 开发环境
+    windows
+    jdk8
+    maven 3.3.9
+    Spring Cloud Greenwich.SR1
+
+
 # 学习过程
 [Spring Cloud（一）初识及版本介绍](http://yangpan.site/#/article/2c9180876ae951fb016b25f69c940009)
 
