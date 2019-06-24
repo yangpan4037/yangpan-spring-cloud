@@ -1,1 +1,1 @@
-# yangpan-springcloud
+# yangpan-spring-cloud

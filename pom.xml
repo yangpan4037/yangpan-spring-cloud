@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>site.yangpan</groupId>
-    <artifactId>yangpan-springcloud</artifactId>
+    <artifactId>yangpan-spring-cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>yangpan-springcloud</name>
+    <name>yangpan-spring-cloud</name>
     <description>yangpan spring cloud parent project</description>
 
     <parent>
