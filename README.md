@@ -2,6 +2,7 @@
     windows
     jdk8
     maven 3.3.9
+    Spring Boot 2.1.5.RELEASE
     Spring Cloud Greenwich.SR1
 
 
