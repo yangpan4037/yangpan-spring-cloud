@@ -44,6 +44,8 @@
         <module>yangpan-spring-cloud-gateway-filter</module>
         <module>yangpan-spring-cloud-gateway-filter-rate-limiter</module>
         <module>yangpan-spring-cloud-gateway-route</module>
+        <module>yangpan-zookeeper-client</module>
+        <module>yangpan-zookeeper-server</module>
     </modules>
 
     <properties>
